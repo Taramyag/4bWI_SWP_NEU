@@ -1,0 +1,21 @@
+import React from 'react'
+type Props = {
+    name: string
+    image: string
+    description: string
+    author: string
+}
+
+
+
+
+export default function Card2({ name, image, description, author }: Props) {
+    return (
+        <div className='card2'>
+            <h2>{name}</h2>
+            <img src={image} alt={name} />
+            <p>{description}</p>
+            <p>made by {author}</p>
+        </div>
+    )
+}
