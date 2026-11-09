@@ -12,7 +12,7 @@ function App() {
     <>
       <h1>Willkommen</h1>
       <div className={styles.classcontainer}>
-        <Card />
+        <Card title="Aleksandar" text="Die Karte ist sehr schön" />
         <Card2
           name="Aleksandar"
           image="https://picsum.photos/200/300"

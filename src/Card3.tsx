@@ -14,7 +14,7 @@ export default function Card3({ image, image2, image3, image4 }: Props) {
     return (
         <div className={styles.card3}>
 
-            <img src={image} className={styles.card3} />
+            <img src={image} className={styles.Images} />
             <img src={image2} className={styles.Images} />
             <img src={image3} className={styles.Images} />
             <img src={image4} className={styles.Images} />
