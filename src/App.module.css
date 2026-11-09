@@ -1,0 +1,12 @@
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.classcontainer {
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}

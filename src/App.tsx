@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import './App.css'
+import styles from './App.module.css'
 
-import './App.css'
 import Card from './Card'
 import Card2 from './Card2'
 import Card3 from './Card3'
@@ -12,7 +11,7 @@ function App() {
   return (
     <>
       <h1>Willkommen</h1>
-      <div className='class-container'>
+      <div className={styles.classcontainer}>
         <Card />
         <Card2
           name="Aleksandar"
