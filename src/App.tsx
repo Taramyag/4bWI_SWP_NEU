@@ -12,20 +12,25 @@ function App() {
     <>
       <h1>Willkommen</h1>
       <div className={styles.classcontainer}>
-        <Card title="Aleksandar" text="Die Karte ist sehr schön" />
+        <Card
+          title="Aleksandar"
+          text="Die Karte ist sehr schön"
+          image="https://picsum.photos/200/300"
+
+        />
         <Card2
           name="Aleksandar"
-          image="https://picsum.photos/200/300"
+          image="https://picsum.photos/200/400"
           description="This is a description"
           author="Aleksandar"
         />
 
         <Card3
 
-          image="https://picsum.photos/200/300"
-          image2="https://picsum.photos/200/300"
-          image3="https://picsum.photos/200/300"
-          image4="https://picsum.photos/200/300"
+          image="https://picsum.photos/200/500"
+          image2="https://picsum.photos/200/500"
+          image3="https://picsum.photos/200/500"
+          image4="https://picsum.photos/200/500"
 
         />
 
